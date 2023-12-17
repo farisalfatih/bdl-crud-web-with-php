@@ -54,10 +54,38 @@
                 </li>
                 <li>
                 <label for="jurusan">Jurusan : </label>
-                    <select name="jurusan" required type="text">
+                    <select name="jurusan" required>
                         <option value="Informatika">Informatika</option>
                         <option value="Sistem Informasi">Sistem Informasi</option>
                         <option value="Sains Data">Sains Data</option>
+                        <option value="Bisnis Digital">Bisnis Digital</option>
+                        <option value="Pendidikan Dokter">Pendidikan Dokter</option>
+                        <option value="Profesi Dokter">Profesi Dokter</option>
+                        <option value="Ekonomi Pembangunan">Ekonomi Pembangunan</option>
+                        <option value="Manajemen">Manajemen</option>
+                        <option value="Akuntansi">Akuntansi</option>
+                        <option value="Kewirausahaan">Kewirausahaan</option>
+                        <option value="Teknik Industri">Teknik Industri</option>
+                        <option value="Teknik Kimia">Teknik Kimia</option>
+                        <option value="Teknologi Pangan">Teknologi Pangan</option>
+                        <option value="Teknik Sipil">Teknik Sipil</option>
+                        <option value="Teknik Lingkungan">Teknik Lingkungan</option>
+                        <option value="Teknik Mesin">Teknik Mesin</option>
+                        <option value="Fisika">Fisika</option>
+                        <option value="Administrasi Negara">Administrasi Negara</option>
+                        <option value="Administrasi Bisnis">Administrasi Bisnis</option>
+                        <option value="Ilmu Komunikasi">Ilmu Komunikasi</option>
+                        <option value="Hubungan Internasional">Hubungan Internasional</option>
+                        <option value="Pariwisata">Pariwisata</option>
+                        <option value="Linguistik Indonesia">Linguistik Indonesia</option>
+                        <option value="D4 Bahasa Inggris">D4 Bahasa Inggris</option>
+                        <option value="Arsitektur">Arsitektur</option>
+                        <option value="Desain Komunikasi Visual">Desain Komunikasi Visual</option>
+                        <option value="Desain Interior">Desain Interior</option>
+                        <option value="Agroteknologi">Agroteknologi</option>
+                        <option value="Agribisnis">Agribisnis</option>
+                        <option value="Fakultas Hukum">Fakultas Hukum</option>
+                        <option value="Ilmu Hukum">Ilmu Hukum</option>
                     </select>
                 </li>
                 <li>
