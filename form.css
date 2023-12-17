@@ -1,0 +1,87 @@
+/* Reset some default styles for better cross-browser consistency */
+body, h1, h2, h3, p, ul, li, form {
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    padding-top: 20px;
+    text-shadow: #2980b9;
+    
+}
+
+/* Apply a technology-themed background color to the body */
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the container to center the form on the page */
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the form header with a technology-themed color */
+.container h1 {
+    text-align: center;
+    color: #3498db; /* Blue color commonly associated with technology */
+}
+
+/* Style the form elements */
+form ul {
+    list-style: none;
+    padding: 0;
+}
+
+form li {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Style input, select, and button with technology-themed colors */
+input,
+select,
+button {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Style the submit button with a darker blue color */
+button {
+    background-color: #2980b9;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* Add hover effect to the button */
+button:hover {
+    background-color: #1a5276;
+}
+
+/* Make the image responsive */
+form img {
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto; /* Center the image within its container */
+    display: block;
+}
+
+/* Add some spacing between the form elements on larger screens */
+@media (min-width: 768px) {
+    form li {
+        margin-bottom: 30px;
+    }
+}
